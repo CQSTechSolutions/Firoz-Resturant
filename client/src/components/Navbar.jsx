@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaHamburger, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa'; // Changed FaHamburger to FaBars
 
 
 const Navbar = () => {
@@ -33,11 +33,11 @@ const Navbar = () => {
             </Link>
           </nav>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 ">
             {/* Contact Button */}
             <Link 
               to="https://wa.link/ywuse1" 
-              className="bg-[#7b1315] text-white p-2 rounded text-sm font-medium hover:bg-[#641012] transition-colors duration-300"
+              className="bg-[#7b1315] text-white p-2 rounded-[10px] text-sm font-medium hover:bg-[#641012] transition-colors duration-300"
             >
               Contact Us
             </Link>
@@ -45,27 +45,27 @@ const Navbar = () => {
             {/* Mobile Menu Button */}
             <button 
               onClick={toggleMenu} 
-              className={`md:hidden p-2 font-bold text-2xl rounded-md ${isOpen ? 'text-[#641012]' : 'text-[#7b1315]'} hover:bg-gray-100`}
+              className={`md:hidden p-2 font-bold text-2xl rounded-[10px] ${isOpen ? 'text-[#641012]' : 'text-[#7b1315]'} hover:bg-gray-100`}
             >
-              {isOpen ? <FaTimes /> : <FaHamburger />}
+              {isOpen ? <FaTimes /> : <FaBars />}
             </button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 flex justify-center">
+          <div className="md:hidden py-4 flex justify-center animate-fadeIn">
             <nav className="flex flex-col space-y-4">
               <Link 
                 to="#about" 
-                className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300 transform hover:scale-105"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
               <Link 
                 to="#menu" 
-                className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300 transform hover:scale-105"
                 onClick={() => setIsOpen(false)}
               >
                 Menu
