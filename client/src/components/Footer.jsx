@@ -17,7 +17,7 @@ const Footer = () => {
                             <FaPhoneAlt className="mr-2 text-yellow-400" />
                             Contact
                         </h4>
-                        <p className="text-sm">Phone: +91 12345 67890</p>
+                        <p className="text-sm">Phone: +91 9821246147</p>
                         <p className="text-sm">Email: info@firozfarsan.com</p>
                     </div>
                     <div className="p-4 bg-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105">
