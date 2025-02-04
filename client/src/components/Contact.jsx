@@ -28,7 +28,7 @@ const Contact = () => {
                                     <FaPhoneAlt className="w-5 h-5 text-yellow-400" />
                                     <div>
                                         <h4 className="font-semibold mb-1">Call Us</h4>
-                                        <p className="text-gray-200">+91 12345 67890</p>
+                                        <p className="text-gray-200">+91 9821246147</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg transition duration-300 hover:bg-gray-700">
