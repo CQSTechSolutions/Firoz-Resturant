@@ -3,8 +3,8 @@ const About = () => {
     <section className="py-16 bg-white" id="about">
       {/* Section Title */}
       <div className="container mx-auto px-4 mb-12 text-center">
-        <h2 className="text-3xl font-bold text-[#7b1315] mb-2">ABOUT US</h2>
-        <h3 className="text-2xl mb-8">Where Tradition Meets Taste – Since the 1930s</h3>
+        <h2 className="text-5xl font-bold text-[#7b1315] mb-2">ABOUT US</h2>
+        <h3 className="text-4xl mb-8">Where Tradition Meets Taste – Since the 1930s</h3>
       </div>
 
       <div className="container mx-auto px-4">
@@ -18,7 +18,7 @@ const About = () => {
             />
           </div>
           <div className="space-y-6">
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-black leading-relaxed text-xl" style={{ lineHeight: '2.0' }}>
               For over 90 years, we have been a treasured name in Mumbai's 
               farsan industry, known for handcrafted snacks, time-honoured 
               recipes, and an unwavering commitment to quality. Originally known 
@@ -28,10 +28,10 @@ const About = () => {
             </p>
 
             <div>
-              <h3 className="text-2xl font-bold text-[#7b1315] mb-4">
+              <h3 className="text-3xl font-bold text-[#7b1315] mb-4 text-2xl">
                 A Legacy Celebrated in Mumbai's Food Scene
               </h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
+              <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
                 Over the decades, we have been featured in newspapers, food 
                 columns, and local recommendations as a must-visit destination for 
                 farsan lovers. In a 1997 feature article, our shop was highlighted as 
@@ -40,7 +40,7 @@ const About = () => {
                 and beyond would travel just to experience our flavours, and our name 
                 became a staple among snack lovers.
               </p>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
               One of our most treasured creations is Patrel Biryani, a dish invented 
               by our grandfather and served only by us. Nowhere else in the world 
               will you find it, making it a truly one-of-a-kind experience that has 
@@ -53,19 +53,19 @@ const About = () => {
         {/* Second Section - Image on Right, Text on Left */}
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-6">
-            <p>
+            <p className="text-xl" style={{ lineHeight: '2.0' }}>
             One of our most treasured creations is Patrel Biryani, a dish invented by our grandfather and served only by us. Nowhere else in the world will you find it, making it a truly one-of-a-kind experience that has been passed down and perfected over generations
             </p>
-            <h3 className="text-2xl font-bold text-[#7b1315] mb-4">
+            <h3 className="text-3xl font-bold text-[#7b1315] mb-4">
               A New Chapter, Same Timeless Taste
             </h3>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
               With time comes change, and as part of the SBUT upliftment project, 
               we have relocated to "Al-Ezz" Commercial Tower, still in Bhendi 
               Bazaar. Our name may be new, but our recipes, flavours, and 
               dedication to tradition remain exactly the same.
             </p>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-black leading-relaxed text-xl" style={{ lineHeight: '2.0' }}>
               If you haven't tried our farsan yet, this is your sign! Whether you're a 
               longtime customer who remembers visiting our original shop or a 
               first-time visitor eager to taste history, we invite you to experience 
@@ -73,8 +73,8 @@ const About = () => {
             </p>
 
             {/* Location Box */}
-            <div className="border-2 border-[#7b1315] p-6 rounded-lg mt-8">
-              <h4 className="text-center text-[#7b1315] font-bold mb-2">
+            <div className="border-2 border-[#7b1315] p-6 rounded-lg mt-8 text-xl">
+              <h4 className="text-center text-[#7b1315] font-bold mb-2 text-2xl">
                 Now Operating from
               </h4>
               <p className="text-center font-medium">

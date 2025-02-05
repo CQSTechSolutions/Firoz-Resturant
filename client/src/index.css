@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+body{
+    font-family: 'Montserrat', 'Open Sans', 'Lato';
+    font-weight: bold;
+}
