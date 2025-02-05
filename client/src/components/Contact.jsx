@@ -14,32 +14,32 @@ const Contact = () => {
                 <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-6xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         {/* Left Section - Contact Info */}
-                        <div className="bg-[#1a202c] p-8 lg:p-12 text-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                            <h3 className="text-3xl font-bold mb-6 text-yellow-400">Get in Touch</h3>
+                        <div className="bg-[#7b1315] p-8 lg:p-12 text-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                        <h3 className="text-3xl font-extrabold mb-6" style={{ color: 'white' }}>Get in Touch</h3>
                             <div className="space-y-6">
-                                <div className="flex items-start space-x-4 bg-gray-800 p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaMapMarkerAlt className="w-6 h-6 mt-1 text-yellow-400" />
+                                <div className="flex items-start space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
+                                    <FaMapMarkerAlt className="w-6 h-6 mt-1    " />
                                     <div>
                                         <h4 className="font-semibold mb-1">Our Location</h4>
                                         <p className="text-gray-200">AKBER'S Firoz Farsan, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
                                     </div>
                                 </div>
-                                <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaPhoneAlt className="w-5 h-5 text-yellow-400" />
+                                <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
+                                    <FaPhoneAlt className="w-5 h-5    "style={{ color: 'white' }} />
                                     <div>
                                         <h4 className="font-semibold mb-1">Call Us</h4>
                                         <p className="text-gray-200">+91 9821246147</p>
                                     </div>
                                 </div>
-                                <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaEnvelope className="w-5 h-5 text-yellow-400" />
+                                <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
+                                    <FaEnvelope className="w-5 h-5    "style={{ color: 'white' }} />
                                     <div>
                                         <h4 className="font-semibold mb-1">Email Us</h4>
                                         <p className="text-gray-200">info@firozfarsan.com</p>
                                     </div>
                                 </div>
-                                <div className="flex items-center space-x-4 bg-gray-800 p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaClock className="w-5 h-5 text-yellow-400" />
+                                <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
+                                    <FaClock className="w-5 h-5    " style={{ color: 'white' }}/>
                                     <div>
                                         <h4 className="font-semibold mb-1">Opening Hours</h4>
                                         <p className="text-gray-200">All Week: 10 AM - 8 PM</p>
@@ -59,52 +59,52 @@ const Contact = () => {
 
                         {/* Right Section - Contact Form */}
                         <div className="p-8 lg:p-12">
-                            <h3 className="text-2xl font-bold text-gray-800 mb-8">Send us a Message</h3>
+                            <h3 className="text-2xl font-bold text-black mb-8">Send us a Message</h3>
                             <form className="space-y-6">
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2" htmlFor="name">
+                                    <label className="block text-sm font-medium text-black mb-2" htmlFor="name">
                                         Your Name
                                     </label>
                                     <input 
                                         type="text" 
                                         id="name" 
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
+                                        className="w-full px-4 py-3 rounded-lg border border-black focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
                                         placeholder="John Doe"
                                         required 
                                     />
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2" htmlFor="email">
+                                    <label className="block text-sm font-medium text-black mb-2" htmlFor="email">
                                         Your Email
                                     </label>
                                     <input 
                                         type="email" 
                                         id="email" 
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
+                                        className="w-full px-4 py-3 rounded-lg border border-black focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
                                         placeholder="john@example.com"
                                         required 
                                     />
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2" htmlFor="subject">
+                                    <label className="block text-sm font-medium text-black mb-2" htmlFor="subject">
                                         Subject
                                     </label>
                                     <input 
                                         type="text" 
                                         id="subject" 
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
+                                        className="w-full px-4 py-3 rounded-lg border border-black focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
                                         placeholder="How can we help?"
                                         required 
                                     />
                                 </div>
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2" htmlFor="message">
+                                    <label className="block text-sm font-medium text-black mb-2" htmlFor="message">
                                         Message
                                     </label>
                                     <textarea 
                                         id="message" 
                                         rows="4" 
-                                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
+                                        className="w-full px-4 py-3 rounded-lg border border-black focus:ring-2 focus:ring-[#1a202c] focus:border-transparent transition duration-300"
                                         placeholder="Your message here..."
                                         required
                                     ></textarea>

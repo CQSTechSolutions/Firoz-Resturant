@@ -28,7 +28,7 @@ const Footer = () => {
                         <p className="text-sm">All Week: 10 AM - 8 PM</p>
                     </div>
                 </div>
-                <div className="mt-8 flex justify-center space-x-6">
+                {/* <div className="mt-8 flex justify-center space-x-6">
                     <a href="#" className="text-gray-400 hover:text-yellow-400 transition duration-300">
                         <FaFacebook className="inline-block mr-1" /> Facebook
                     </a>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <a href="#" className="text-gray-400 hover:text-yellow-400 transition duration-300">
                         <FaTwitter className="inline-block mr-1" /> Twitter
                     </a>
-                </div>
+                </div> */}
             </div>
         </footer>
     )
