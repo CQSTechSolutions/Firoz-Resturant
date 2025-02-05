@@ -9,7 +9,7 @@ const Gallary = () => (
             <p className="text-lg text-gray-600"><span className="font-semibold">Check</span> <span className="description-title text-[#7b1315]">Our Gallery</span></p>
         </div>
         <div className="container mx-auto mt-10" data-aos="fade-up" data-aos-delay="100">
-            <Carousel showArrows infiniteLoop useKeyboardArrows autoPlay interval={5000}>
+            <Carousel showArrows infiniteLoop useKeyboardArrows autoPlay interval={5000} showThumbs={false}>
                 {Array.from({ length: 11 }, (_, index) => (
                     <div key={index} className="mx-auto h-80 w-100 object-cover">
                         <a className="glightbox" data-gallery="images-gallery" href={`/gallery/gallery-${index + 1}.webp`}>

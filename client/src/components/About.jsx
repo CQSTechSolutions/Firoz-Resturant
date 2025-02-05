@@ -16,9 +16,14 @@ const About = () => {
               alt="Historic Newspaper Article"
               className="w-full rounded-lg shadow-lg"
             />
+            <img 
+              src="/about-2.jpg" 
+              alt="Firoz Farsan Shop Front"
+              className="w-full rounded-lg shadow-lg md:hidden"
+            />
           </div>
           <div className="space-y-6">
-            <p className="text-black leading-relaxed text-xl" style={{ lineHeight: '2.0' }}>
+            <p className="text-black leading-relaxed text-xl">
               For over 90 years, we have been a treasured name in Mumbai's 
               farsan industry, known for handcrafted snacks, time-honoured 
               recipes, and an unwavering commitment to quality. Originally known 
@@ -31,7 +36,7 @@ const About = () => {
               <h3 className="text-3xl font-bold text-[#7b1315] mb-4 text-2xl">
                 A Legacy Celebrated in Mumbai's Food Scene
               </h3>
-              <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
+              <p className="text-black leading-relaxed mb-4 text-xl">
                 Over the decades, we have been featured in newspapers, food 
                 columns, and local recommendations as a must-visit destination for 
                 farsan lovers. In a 1997 feature article, our shop was highlighted as 
@@ -40,7 +45,7 @@ const About = () => {
                 and beyond would travel just to experience our flavours, and our name 
                 became a staple among snack lovers.
               </p>
-            <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
+            <p className="text-black leading-relaxed mb-4 text-xl">
               One of our most treasured creations is Patrel Biryani, a dish invented 
               by our grandfather and served only by us. Nowhere else in the world 
               will you find it, making it a truly one-of-a-kind experience that has 
@@ -53,19 +58,19 @@ const About = () => {
         {/* Second Section - Image on Right, Text on Left */}
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-6">
-            <p className="text-xl" style={{ lineHeight: '2.0' }}>
+            <p className="text-xl">
             One of our most treasured creations is Patrel Biryani, a dish invented by our grandfather and served only by us. Nowhere else in the world will you find it, making it a truly one-of-a-kind experience that has been passed down and perfected over generations
             </p>
             <h3 className="text-3xl font-bold text-[#7b1315] mb-4">
               A New Chapter, Same Timeless Taste
             </h3>
-            <p className="text-black leading-relaxed mb-4 text-xl" style={{ lineHeight: '2.0' }}>
+            <p className="text-black leading-relaxed mb-4 text-xl">
               With time comes change, and as part of the SBUT upliftment project, 
               we have relocated to "Al-Ezz" Commercial Tower, still in Bhendi 
               Bazaar. Our name may be new, but our recipes, flavours, and 
               dedication to tradition remain exactly the same.
             </p>
-            <p className="text-black leading-relaxed text-xl" style={{ lineHeight: '2.0' }}>
+            <p className="text-black leading-relaxed text-xl">
               If you haven't tried our farsan yet, this is your sign! Whether you're a 
               longtime customer who remembers visiting our original shop or a 
               first-time visitor eager to taste history, we invite you to experience 
@@ -84,7 +89,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 hidden md:block">
             <img 
               src="/about-2.jpg" 
               alt="Firoz Farsan Shop Front"

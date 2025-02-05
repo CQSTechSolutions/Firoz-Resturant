@@ -10,6 +10,14 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto px-4">
@@ -23,12 +31,16 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="#about" className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300
                       relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[#7b1315] 
-                      after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">
+                      after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full"
+              onClick={() => scrollToSection('about')}
+            >
               About
             </Link>
             <Link to="#menu" className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300
                       relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-[#7b1315] 
-                      after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full">
+                      after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full"
+              onClick={() => scrollToSection('menu')}
+            >
               Menu
             </Link>
           </nav>
@@ -59,14 +71,14 @@ const Navbar = () => {
               <Link 
                 to="#about" 
                 className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300 transform hover:scale-105"
-                onClick={() => setIsOpen(false)}
+                onClick={() => scrollToSection('about')}
               >
                 About
               </Link>
               <Link 
                 to="#menu" 
                 className="text-black hover:text-[#7b1315] px-3 py-2 text-sm font-medium transition-colors duration-300 transform hover:scale-105"
-                onClick={() => setIsOpen(false)}
+                onClick={() => scrollToSection('menu')}
               >
                 Menu
               </Link>
