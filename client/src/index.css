@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+body{
+    font-family: 'Montserrat', 'Open Sans', 'Lato', url('./assets/montserrat/Montserrat-VariableFont_wght.ttf');
+    /* font-weight: bold; */
+}
