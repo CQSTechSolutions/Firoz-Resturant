@@ -18,7 +18,7 @@ const Footer = () => {
                             Contact
                         </h4>
                         <p className="text-sm" style={{ color: 'black' }}>Phone: +91 9821246147</p>
-                        <p className="text-sm" style={{ color: 'black' }}>Email: info@firozfarsan.com</p>
+                        <p className="text-sm" style={{ color: 'black' }}>Email: sales@akbersfirozfarsan.com</p>
                     </div>
                     <div className="p-4 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <h4 className="font-bold mb-2 flex items-center justify-center text-lg" style={{ color: '#7b1315' }}>
