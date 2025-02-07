@@ -45,12 +45,7 @@ const About = () => {
                 and beyond would travel just to experience our flavours, and our name 
                 became a staple among snack lovers.
               </p>
-            <p className="text-black leading-relaxed mb-4 text-xl">
-              One of our most treasured creations is Patrel Biryani, a dish invented 
-              by our grandfather and served only by us. Nowhere else in the world 
-              will you find it, making it a truly one-of-a-kind experience that has 
-              been passed down and perfected over generations.
-            </p>
+         
             </div>
           </div>
         </div>
