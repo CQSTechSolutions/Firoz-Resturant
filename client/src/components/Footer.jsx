@@ -25,7 +25,7 @@ const Footer = () => {
                             <FaClock className="mr-2    "style={{ color: '#7b1315' }}/>
                             Opening Hours
                         </h4>
-                        <p className="text-sm" style={{ color: 'black' }}>All Week: 10 AM - 8 PM</p>
+                        <p className="text-sm" style={{ color: 'black' }}>All Week: 8 AM - 9 PM</p>
                     </div>
                 </div>
                 {/* <div className="mt-8 flex justify-center space-x-6">

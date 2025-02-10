@@ -3,7 +3,6 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock, FaWhatsapp } from 'rea
 const Contact = () => {
     return (
         <section id="contact" className="py-16 bg-gray-50">
-            {/* Section Title */}
             <div className="container mx-auto px-4 mb-12 text-center">
                 <h2 className="text-4xl font-bold text-[#1a202c] mb-3">Contact Us</h2>
                 <div className="w-24 h-1 bg-[#1a202c] mx-auto mb-4"></div>
@@ -13,33 +12,32 @@ const Contact = () => {
             <div className="container mx-auto px-4">
                 <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-6xl mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-2">
-                        {/* Left Section - Contact Info */}
                         <div className="bg-[#7b1315] p-8 lg:p-12 text-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-3xl font-extrabold mb-6" style={{ color: 'white' }}>Get in Touch</h3>
+                            <h3 className="text-3xl font-extrabold mb-6" style={{ color: 'white' }}>Get in Touch</h3>
                             <div className="space-y-6">
                                 <div className="flex items-start space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaMapMarkerAlt className="w-6 h-6 mt-1    " />
+                                    <FaMapMarkerAlt className="w-6 h-6 mt-1" />
                                     <div>
                                         <h4 className="font-semibold mb-1">Our Location</h4>
-                                        <p className="text-gray-200"> AKBER’S FIROZ FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
+                                        <p className="text-gray-200"> AKBER’S FIROZ FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaPhoneAlt className="w-5 h-5    "style={{ color: 'white' }} />
+                                    <FaPhoneAlt className="w-5 h-5" style={{ color: 'white' }} />
                                     <div>
                                         <h4 className="font-semibold mb-1">Call Us</h4>
                                         <p className="text-gray-200">+91 9821246147</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaEnvelope className="w-5 h-5    "style={{ color: 'white' }} />
+                                    <FaEnvelope className="w-5 h-5" style={{ color: 'white' }} />
                                     <div>
                                         <h4 className="font-semibold mb-1">Email Us</h4>
                                         <p className="text-gray-200">sales@akbersfirozfarsan.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">
-                                    <FaClock className="w-5 h-5    " style={{ color: 'white' }}/>
+                                    <FaClock className="w-5 h-5" style={{ color: 'white' }} />
                                     <div>
                                         <h4 className="font-semibold mb-1">Opening Hours</h4>
                                         <p className="text-gray-200">All Week: 8 AM - 9 PM</p>
@@ -47,7 +45,6 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            {/* WhatsApp Button */}
                             <a 
                                 href="https://wa.link/ywuse1" 
                                 className="inline-flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg mt-8 hover:bg-green-700 transition duration-300 shadow-md hover:shadow-lg"
@@ -57,7 +54,6 @@ const Contact = () => {
                             </a>
                         </div>
 
-                        {/* Right Section - Contact Form */}
                         <div className="p-8 lg:p-12">
                             <h3 className="text-2xl font-bold text-black mb-8">Send us a Message</h3>
                             <form className="space-y-6">
@@ -120,7 +116,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Map Section */}
                 <div className="mt-12 bg-white rounded-2xl shadow-xl overflow-hidden">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3511171623477!2d72.82888077502444!3d18.960094682220728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf39cc0d85ed%3A0xae82910815dd52c8!2sAKBER'S%20FIROZ%20FARAN!5e0!3m2!1sen!2sin!4v1737967218820!5m2!1sen!2sin" 
