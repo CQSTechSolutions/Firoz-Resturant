@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Baarik Nylon Sev",
+        "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
+        "price": "180",
+        "images": [
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
+        ]        
+    },
+    {
+        "id": 2,
+        "name": "Baarik Nylon Sev",
+        "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
+        "price": "180",
+        "images": [
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
+        ]        
+    },
+    {
+        "id": 3,
+        "name": "Baarik Nylon Sev",
+        "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
+        "price": "180",
+        "images": [
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
+            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
+        ]        
+    }
+]

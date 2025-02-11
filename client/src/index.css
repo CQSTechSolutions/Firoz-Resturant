@@ -4,3 +4,16 @@ body{
     font-family: 'Montserrat', 'Open Sans', 'Lato', url('./assets/montserrat/Montserrat-VariableFont_wght.ttf');
     /* font-weight: bold; */
 }
+
+/* Custom styles for react-multi-carousel */
+.react-multi-carousel-dot-list {
+    bottom: 10px !important;
+}
+
+.react-multi-carousel-dot button {
+    border-color: white !important;
+}
+
+.react-multi-carousel-dot--active button {
+    background: white !important;
+}
