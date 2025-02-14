@@ -5,28 +5,140 @@
         "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
         "price": "180",
         "images": [
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
+            "/Products/Baarik Nylon Sev/Baarik Nylon Sev Side View.jpg",
+            "/Products/Baarik Nylon Sev/Baarik Nylon Sev Top View.jpg"
         ]        
     },
     {
         "id": 2,
-        "name": "Baarik Nylon Sev",
-        "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
-        "price": "180",
+        "name": "Bhavnagri Gathiya",
+        "description": "Crispy and spicy snack made from gram flour",
+        "price": "150",
         "images": [
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
-        ]        
+            "/Products/Bhavnagri Gathiya/Bhavnagri Gathiya Side View.jpg",
+            "/Products/Bhavnagri Gathiya/Bhavnagri Gathiya Top View 1.jpg",
+            "/Products/Bhavnagri Gathiya/Bhavnagri Gathiya Top View 2.jpg"
+        ]
     },
     {
         "id": 3,
-        "name": "Baarik Nylon Sev",
-        "description": "Ultra-thin, crispy strands of gram flour seasoned with traditional spices",
+        "name": "Corn Chivda",
+        "description": "Crunchy corn snack mixed with spices and nuts",
+        "price": "200",
+        "images": [
+            "/Products/Corn Chivda/Corn Chivda Side View 1.jpg",
+            "/Products/Corn Chivda/Corn Chivda Side View 2.jpg",
+            "/Products/Corn Chivda/Corn Chivda Top View 1.jpg",
+            "/Products/Corn Chivda/Corn Chivda Top View2.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Firoz Mix Farsan",
+        "description": "A delightful mix of various traditional snacks",
+        "price": "220",
+        "images": [
+            "/Products/Firoz Mix Farsan/Firoz Mix Farsan Side View.jpg",
+            "/Products/Firoz Mix Farsan/Firoz Mix Farsan Top View.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Firoz Special Chivda",
+        "description": "Specially prepared chivda with a unique blend of spices",
+        "price": "190",
+        "images": [
+            "/Products/Firoz Special Chivda/Firoz Special Chivda Side View 1.jpg",
+            "/Products/Firoz Special Chivda/Firoz Special Chivda Side View 2.jpg",
+            "/Products/Firoz Special Chivda/Firoz Special Chivda Top View 1.png",
+            "/Products/Firoz Special Chivda/Firoz Special Chivda Top View 2.jpg",
+            "/Products/Firoz Special Chivda/Firoz Special Chivda Top View 3.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Jaada Gathiya",
+        "description": "Thick and crunchy gathiya, perfect for snacking",
+        "price": "160",
+        "images": [
+            "/Products/Jaada Gathiya/Jaada Gathiya Side View.jpg",
+            "/Products/Jaada Gathiya/Jaada Gathiya Top View.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Mangalore Chivda",
+        "description": "A spicy and crunchy snack from Mangalore",
+        "price": "210",
+        "images": [
+            "/Products/Mangalore Chivda/Mangalore Chivda Side View.jpg",
+            "/Products/Mangalore Chivda/Mangalore Chivda Top View.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Methi Masala Puri",
+        "description": "Crispy puris flavored with fenugreek and spices",
+        "price": "175",
+        "images": [
+            "/Products/Methi Masala Puri/Methi Masala Puri.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Namkeen Jeera Puri",
+        "description": "Savory puris with cumin flavor",
+        "price": "165",
+        "images": [
+            "/Products/Namkeen Jeera Puri/Namkeen Jeera Puri.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Papdi Side",
+        "description": "Crispy papdi, perfect for serving with chutneys",
+        "price": "140",
+        "images": [
+            "/Products/Papdi Side/Papdi Side View.jpg",
+            "/Products/Papdi Side/Papdi Top View.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ratlami Sev",
+        "description": "Spicy and crunchy sev from Ratlam",
+        "price": "190",
+        "images": [
+            "/Products/Ratlami Sev/Ratlami Sev Top View 1.jpg",
+            "/Products/Ratlami Sev/Ratlami Sev Top View 2.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Sweet Puri",
+        "description": "Deliciously sweet puris, perfect for snacking",
         "price": "180",
         "images": [
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing",
-            "https://drive.google.com/file/d/1TX9i7yf_MW3ahX6g9HbaGBPL75COGhC6/view?usp=sharing"
-        ]        
+            "/Products/Sweet Puri/Sweet Puri.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sweet Thepla",
+        "description": "Sweet flatbreads made with whole wheat flour",
+        "price": "200",
+        "images": [
+            "/Products/Sweet Thepla/Sweet Thepla.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Wafer Salli Chivda",
+        "description": "Crispy and crunchy chivda made with wafers",
+        "price": "220",
+        "images": [
+            "/Products/Wafer Salli Chivda/Wafer Salli Chivda Side View.jpg",
+            "/Products/Wafer Salli Chivda/Wafer Salli Chivda Top View.jpg"
+        ]
     }
 ]

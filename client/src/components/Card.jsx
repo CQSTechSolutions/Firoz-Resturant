@@ -17,13 +17,7 @@ const ProductCard = ({ product }) => {
             items: 1
         }
     };
-
-    const getImageUrl = (url) => {
-        if (!url) return '';
-        const fileId = url.split('/d/')[1]?.split('/')[0];
-        return `https://drive.google.com/uc?export=view&id=${fileId}`;
-    };
-
+    console.log(product);
     return (
         <div className="w-[350px] bg-white rounded-xl overflow-hidden shadow-lg m-4 hover:shadow-2xl transition-shadow duration-300">
             <div className="h-[250px] w-full">
@@ -39,7 +33,7 @@ const ProductCard = ({ product }) => {
                     {product.images.map((image, index) => (
                         <div key={index} className="h-[250px]">
                             <img 
-                                src={getImageUrl(image)}
+                                src={image}
                                 alt={`${product.name} - ${index + 1}`}
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
