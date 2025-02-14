@@ -48,13 +48,13 @@ const ProductCard = ({ product }) => {
             
             <div className="p-6">
                 <h3 className="font-bold text-2xl mb-3 text-[#7b1315]">{product.name}</h3>
-                {product.description && (
+                {/* {product.description && (
                     <p className="text-gray-700 text-base mb-4">
                         {product.description}
                     </p>
-                )}
+                )} */}
                 
-                <div className="flex justify-between items-center">
+                {/* <div className="flex justify-between items-center">
                     {product.price && (
                         <span className="bg-[#7b1315] text-white px-4 py-2 rounded-full font-semibold">
                             ₹{product.price}
@@ -66,7 +66,7 @@ const ProductCard = ({ product }) => {
                     >
                         Order Now
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     );
