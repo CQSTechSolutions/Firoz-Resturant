@@ -10,7 +10,7 @@ const Footer = () => {
                             <FaMapMarkerAlt className="mr-2    "style={{ color: '#7b1315' }} />
                             Address
                         </h4>
-                        <p className="text-sm" style={{ color: 'black' }}> AKBER’S FIROZ FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
+                        <p className="text-sm" style={{ color: 'black' }}> AKBER’S Firoz FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
                     </div>
                     <div className="p-4 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <h4 className="font-bold mb-2 flex items-center justify-center text-lg" style={{ color: '#7b1315' }}>

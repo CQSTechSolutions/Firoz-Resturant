@@ -19,7 +19,7 @@ const Contact = () => {
                                     <FaMapMarkerAlt className="w-6 h-6 mt-1" />
                                     <div>
                                         <h4 className="font-semibold mb-1">Our Location</h4>
-                                        <p className="text-gray-200"> AKBER’S FIROZ FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
+                                        <p className="text-gray-200"> AKBER’S Firoz FARSAN, Ground Floor, Shop No 56, Khara Tank Road, Opp. Al Sadaah, Mumbai 400003</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-4 bg-[#7b1315] p-4 rounded-lg transition duration-300 hover:bg-gray-700">

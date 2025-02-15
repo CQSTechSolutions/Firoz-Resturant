@@ -13,10 +13,10 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-52">
+        <div className="flex items-center justify-between h-26"> {/* Reduced height from h-52 to h-26 */}
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/logo.png" alt="Logo" className="h-46" />
+            <img src="/logo.png" alt="Logo" className="h-40" /> {/* Reduced height from h-46 to h-23 */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -68,7 +68,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 flex justify-center animate-fadeIn">
+          <div className="md:hidden py-2 flex justify-center animate-fadeIn"> {/* Reduced padding from py-4 to py-2 */}
             <nav className="flex flex-col space-y-4">
               <Link 
                 to="/" 

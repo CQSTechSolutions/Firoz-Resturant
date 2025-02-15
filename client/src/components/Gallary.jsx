@@ -6,7 +6,7 @@ const Gallary = () => (
     <>
         <div className="container mx-auto text-center" data-aos="fade-up">
             <h2 className="text-4xl font-bold text-[#7b1315] mb-4">Gallery</h2>
-            <p className="text-lg text-gray-600"><span className="font-semibold">Check</span> <span className="description-title text-[#7b1315]">Our Gallery</span></p>
+            <span className="font-semibold description-title text-[#7b1315]">Check Our Gallery</span>
         </div>
         <div className="container mx-auto mt-10" data-aos="fade-up" data-aos-delay="100">
             <Carousel showArrows infiniteLoop useKeyboardArrows autoPlay interval={5000} showThumbs={false}>
